@@ -7,132 +7,117 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Aarathi Devakumar's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Aarathi Devakumar
+headline: Sophomore Mechatronics Engineering Student at Texas A&M University
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Howdy! I'm Aarathi, a sophomore engineering student at Texas A&M University pursing a bachelor's in Mechatronics, Automation, and Robotics Engineering!
+  My interests are in robotics and mechatronics, and I have experience in the subject starting from a young age. Ever since competing in middle school robotics with my Girl Scout Troop, I instantly fell in love with the process of designing a robot. I later researched various types of robots and was amazed by how they could help others live a better life and shape the world, and I strive to be part of that process. I have experience in machining, CAD, design, prototyping, and testing. I aim to discover ways to combine my technical experiences in robotics along with various fields such as defense or manufacturing, but particularly in fashion design, designing clothing that is stunning by aesthetics and automation. 
+  As a woman in STEM, I also aim to empower girls to find an interest in STEM by participating and organizing outreach programs. I currently have an engineering instagram that shares my experiences as a female engineering student: girlypopengineer.
+  Outside of robotics and design, I have a background in music. I have played piano for 13 years and the violin for 7 years. I continue playing the violin through the Texas A&M Chamber Orchestra and still play the piano for fun.
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/IMG_0713.jpeg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
-
+resume-url: https://docs.google.com/document/d/1oEPCM0SKfm8Uo8eC7dF80dcCVEpvr2vlb7MsPrM3YNI/edit?usp=sharing
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
+  linkedin: aarathi-devakumar    # https://www.linkedin.com/in/aarathi-devakumar/ 
+  github: aggieart    # https://github.com/aggieart 
+  instragram: girlypopengineer      # https://instagram.com/girlypopengineer 
+  youtube: aarathidevakumar6249          # https://youtube.com/@aarathidevakumar6249 
+  discord: swiftieartichoke           # https://discord.com/users/swiftieartichoke  
   
-
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
-    tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
-    tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
-    tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
-    tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+  - Robotics
+  - Autodesk Inventor, Fusion 360, Onshape
+  - SolidWorks
+  - 3D Printing
+  - CAM
+  - Java
+  - Python
+  - HTML
+  - CSS
+  - MatLab
+  - Soldering
+  - Embedded Systems
+  - Problem-Solving
+  - Team/Project Management
+interests:
+  - Robotics
+  - Mechatronics
+  - Automation
+  - Embedded Systems Integration
+  - Design
+  - Sustainability
+  - Fashion Design
+  - STEM Education
+miscellaneous:
+  - Music Performance
+  - Violin
+  - Piano
+  - Italian (Elementary Proficiency)
+  - Photography
+  - Social Media Content Creation
+  - Chess (320 Elo Rating)
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/{mgvybzbg}
 
 
-
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
+# Active theme (Update this to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
   text: "#2d2d2d"
   border: "#f8e2e2"
   link: "#ff8fa3"
   highlight: "#ff4d6d"
   background: "#fff8f8"
   light_background: "#fff5f6"
+
+# A few examples. 
+  # basic theme:
+  #   text: "#1a1c20"
+  #   border: "#ddd"
+  #   link: "#4a76ee"
+  #   highlight: "#0c0cf2"
+  #   background: "#ffffff"
+  #   light_background: "#f3f5fb"
+    
+  #   mint theme:
+  #   text: "#2c3333"
+  #   border: "#e0f2ef"
+  #   link: "#40b3a2"
+  #   highlight: "#2a9d8f"
+  #   background: "#f7fbfa"
+  #   light_background: "#f0f9f7"
+    
+  # lemon theme:
+  #   text: "#2d2926"
+  #   border: "#f7f3e3"
+  #   link: "#ffc94d"
+  #   highlight: "#ffb800"
+  #   background: "#fffdf5"
+  #   light_background: "#fff9e6"
+    
+  #   pink theme:
+  #   text: "#2d2d2d"
+  #   border: "#f8e2e2"
+  #   link: "#ff8fa3"
+  #   highlight: "#ff4d6d"
+  #   background: "#fff8f8"
+  #   light_background: "#fff5f6"
 
 
 
